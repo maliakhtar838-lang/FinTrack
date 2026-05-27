@@ -1,0 +1,26 @@
+name: khaata_tracker
+version: 1.0.0+1
+publish_to: "none"
+description: Financial Tracker and Peer-to-Peer Khaata Ledger App built with Flutter and Firebase.
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  provider:
+  google_fonts:
+  intl:
+  url_launcher:
+
+dev_dependencies:
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/reference_ui.jpeg
